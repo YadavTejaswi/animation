@@ -1,0 +1,121 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.wrap{
+    width: 100%;
+
+}
+.container{
+     display: flex;
+     position: relative;
+     margin-left: 100px;
+    margin-top: 30px;
+    overflow: hidden;
+    height: 300px;
+  
+    
+
+}
+.box1{
+    position:absolute;
+    align-items: center;
+    background-color: orange;
+    width: 150px;
+    height: 150px;
+    border-radius: 50% 50% 0 0;
+    left: 150px;
+    top: 152px;
+    animation-name: moves ;
+    animation-delay: 0.3s;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    overflow: hidden;
+
+}
+.box2{
+    position:absolute;
+    background-color:rgb(229, 238, 100);
+    width: 150px;
+    height: 150px;
+    border-radius: 50% 50% 0 0;
+    left: 300px;
+    top: 152px;
+    animation-delay: 0.5s;
+    animation-duration: 5s;
+    animation-name : moves ;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+
+
+
+}
+.box3{
+    position:absolute;
+    background-color: rgb(177, 240, 147);
+    width: 150px;
+    height: 150px;
+    border-radius: 50% 50% 0 0;
+    left: 450px;
+    top: 152px;
+    animation-delay: 0.7s;
+    animation-duration: 5s;
+    animation-name: moves ;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+
+
+
+}
+.box4{
+    position:absolute;
+    background-color: rgb(238, 138, 138);
+    width: 150px;
+    height:150px;
+    border-radius: 50% 50% 0 0;
+    left: 600px;
+    top: 152px;
+    animation-delay: 0.9s;
+    animation-duration: 5s;
+    animation-name: moves ;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+
+}
+.box5{
+    position:absolute;
+    background-color: rgb(245, 116, 116);
+    width: 150px;
+    height: 150px;
+    border-radius: 50% 50% 0 0;
+    left: 750px;
+    top: 152px;
+    animation-delay: 1.1s;
+    animation-duration: 5s;
+    animation-name: moves ;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+
+}
+@keyframes moves{
+
+    0%{
+        transform:translateY(0px);
+    }
+    25%{
+        transform:translateY(150px);
+    }
+
+    50%{
+        transform:translateY(0px);
+    }
+    75%{
+transform:translateY(150px)
+    }
+    100%{
+        transform:translateY(0px)
+            }
+    
+}
